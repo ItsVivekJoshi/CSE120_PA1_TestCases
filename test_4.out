@@ -1,0 +1,6 @@
+Umix (User-Mode Unix) CSE120 Instructional OS v. 4.009 12/03/18-00:33 8763
+
+Trying to yield to process 2, which shouldn't exist.
+Bad pid 2 (no such process), can't yield
+Don't really know what will happen here.
+System exiting (normal)

@@ -1,0 +1,12 @@
+Umix (User-Mode Unix) CSE120 Instructional OS v. 4.009 12/03/18-00:33 7929
+
+Process 1 about to yield to process 2
+Process 2 about to yield to process 3
+Process 3 about to yield to process 1
+Process 1 yielded to from process 3 (Should be PID 3)
+Process 1 about to yield to process 2
+Process 2 yielded to from process 1 (Should be PID 1)
+Process 1 yielded to from process 2 (Should be PID 2)
+Process 3 yielded to from process 1 (Should be PID 1)
+
+System exiting (normal)
